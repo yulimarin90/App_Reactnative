@@ -94,11 +94,15 @@ as well as activate the user.
 
 By default, when a client registers from scratch, their account will be saved as inactive and without an assigned role, which prevents access until the administrator makes 
 the necessary changes.
-
+![](assets/usu1.PNG)
+![](assets/rol1.PNG)
 ![](assets/registro.PNG)
 ![](assets/rol2.PNG)
 ![](assets/rol.PNG)
 
 If desired, it can be modified without any problem from the database.
-![](assets/ro4.PNG)
+![](assets/rol4.PNG)
+
+Finally, you must take into account making the Firebase connection correctly within the "firebase.js" file, 
+and in the other files where the connection is used.
 
